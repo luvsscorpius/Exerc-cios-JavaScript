@@ -1,0 +1,1 @@
+Esse é um repositório para exercícios de JavaScript para conseguir colocar em prática tudo oque estou aprendendo.
