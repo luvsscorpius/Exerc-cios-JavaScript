@@ -53,10 +53,39 @@ nav ul li:hover {
     display: flex;
 }
 
+#content-item {
+    background-color: #1d1f1f;
+    width: 45vw;
+    height: 32vh;
+    margin: 5vh auto;
+    border-radius: 10px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#content-input {
+    margin: 40px;
+    font-size: 1.2rem;
+}
+
+#content-input input {
+    width: 100px;
+    text-align: center;
+}
+
+/* button */
+
+#btn {
+    cursor: pointer;
+}
+
 /* Div resultado */
 
 #res {
-    margin: 5vh auto;
+    margin: auto;
     width: 40vw;
     height: 10vh;
     border-radius: 10px;
