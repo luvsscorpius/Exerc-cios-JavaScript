@@ -51,12 +51,49 @@ nav ul li:hover {
 
 #content p {
     display: flex;
+    text-align: center;
+}
+
+#content-items {
+    background-color: #1d1d1f;
+    width: 45vw;
+    height: 30vh;
+    margin: 7vh auto;
+    text-align: center;
+    color: #fff;
+    border-radius: 5px;
+}
+
+#content-input {
+    font-size: 1.3rem;
+    font-weight: 400;
+    padding: 40px;
+}
+
+#content-input input {
+    width: 70px;
+    text-align: center;
+}
+
+#btn {
+    background-color: #F8DC3E;
+    width: 80px;
+    border: #F8DC3E;
+    border-radius: 4px;
+    font-size: 0.90rem;
+    transition: all .5s;
+    margin: 10px;
+}
+
+#btn:hover {
+    opacity: 0.85;
+    cursor: pointer;
 }
 
 /* Div resultado */
 
 #res {
-    margin: 5vh auto;
+    margin: 0vh auto;
     width: 40vw;
     height: 10vh;
     border-radius: 10px;

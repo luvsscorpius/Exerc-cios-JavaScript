@@ -7,12 +7,16 @@ const res = document.getElementById('res')
 function inverter() {
     var numero = num.value
     var resultado = 0
-    while (numero != 0) {
-        resultado = resultado * 10
-        resultado = resultado + numero % 10
-        numero = Math.trunc(numero / 10)
+    if (numero == ''){
+        res.innerHTML = "Insira um número antes de prosseguir."
+    } else {
+        while (numero != 0) {
+            resultado = resultado * 10
+            resultado = resultado + numero % 10
+            numero = Math.trunc(numero / 10)
+        }
+        res.innerHTML = `A inversão do número informado é: <strong>${resultado}</strong>`;
     }
-    res.innerHTML = resultado;
 }
 
 
