@@ -15,7 +15,7 @@ function inverter() {
             resultado = resultado + numero % 10
             numero = Math.trunc(numero / 10)
         }
-        res.innerHTML = `A inversão do número informado é: <strong>${resultado}</strong>`;
+        res.innerHTML = `A inversão do número informado é: <strong>${resultado}</strong>.`;
     }
 }
 
